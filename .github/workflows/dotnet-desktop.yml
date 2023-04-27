@@ -2,15 +2,9 @@ name: Build project
 
 on:
   push:
-    branches:
-    - action
-    paths:
-    - /**
+    branches: [ "action" ]
   pull_request:
-    branches:
-    - action
-    paths:
-    - /**
+    branches: [ "action" ]
 
 jobs:
   build:
